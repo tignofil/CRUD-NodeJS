@@ -8,7 +8,6 @@ const port = 3000;
 
 // Middleware
 app.use(bodyParser.json());
-// app.use(express.json());
 app.use(cors());
 
 //Routes
